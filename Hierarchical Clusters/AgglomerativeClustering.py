@@ -11,29 +11,9 @@ AgglomerativeClustering(n_clusters=2, affinity=’euclidean’, memory=None,
                         linkage=’ward’,pooling_func=’deprecated’)
 '''
 
-#data = np.array([
-#        [1,1],
-#        [1,2],
-#        [2,1],
-#        [2,3],
-#        [1,5],
-#        [6,8],
-#        [7,9],
-#        [6,9],
-#        [8,8],
-#        [8,10],
-#        [14,1],
-#        [14,2],
-#        [15,1],
-#        [15,3]])
-
-#dataset = load_breast_cancer()
 dataset = load_iris()
 data = dataset.data
 
-
-
- 
 agglomerative_cluster_model = AgglomerativeClustering(n_clusters=3, affinity='euclidean', linkage='average')
 y_pred = agglomerative_cluster_model.fit_predict(data)
 
