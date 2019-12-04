@@ -1,7 +1,7 @@
 # Sklearn
 This repository contain some preprocessing methods and machine learning models applied on real data using sklearn library.
 
-This repository contain the following topics 👇
+This repository contain the following topics 
 
 1. Data Cleaning
 2. Data Scaling
@@ -22,3 +22,6 @@ This repository contain the following topics 👇
 17. Metrics Module
 18. Grid Search
 19. Model Save
+
+I hope this repository be useful
+Good luck 👍
