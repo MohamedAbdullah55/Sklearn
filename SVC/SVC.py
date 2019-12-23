@@ -16,13 +16,13 @@ SVC(C=1.0, kernel=’rbf’, degree=3, gamma=’auto_deprecated’, coef0=0.0, s
 
 #load data
 
-#dataSet = load_iris()
-#X       = dataSet.data
-#y       = dataSet.target
-dataSet = pd.read_csv("F:\\kaggel competition\\Classify forest types based on information about the area\\train.csv")
-dataSet = dataSet.drop(["Id"] , axis=1)
-X = dataSet.drop(["Cover_Type"] , axis=1)
-y = dataSet["Cover_Type"]
+dataSet = load_iris()
+X       = dataSet.data
+y       = dataSet.target
+#dataSet = pd.read_csv("F:\\kaggel competition\\Classify forest types based on information about the area\\train.csv")
+#dataSet = dataSet.drop(["Id"] , axis=1)
+#X = dataSet.drop(["Cover_Type"] , axis=1)
+#y = dataSet["Cover_Type"]
 
 print('X dimentions = ',X.shape)
 print('y dimentions = ',y.shape)
